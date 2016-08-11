@@ -6,6 +6,13 @@ class Cat #creates class called Cat
     @name = name
   end
 
+  def eats_at #adds an instance method that returns whether cat eats in AM or PM
+    if @meal_time >= 12
+      return "Cat eats in AM"
+    else
+      return "Cat eats in PM"
+    end
+  end
 
 end
 
