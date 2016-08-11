@@ -14,6 +14,10 @@ class Cat #creates class called Cat
     end
   end
 
+  def meow #adds an instance method called meow that returns a string describing the cat
+    puts "Hello, my name is #{@name} the #{@preferred_foods} loving cat. I eat at #{@meal_time}"
+  end
+
 end
 
 cat1 = Cat.new("Whiskers", "salmon", 20) #Creates an instance of the Cat class
