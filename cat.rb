@@ -24,5 +24,5 @@ cat1 = Cat.new("Whiskers", "salmon", 20) #Creates an instance of the Cat class
 cat2 = Cat.new("Ludwig", "chicken", 4)
 
 
-puts cat1.meow #how do I call meow method?
+puts cat1.meow  #calls meow method on cat1
 puts cat2.meow
